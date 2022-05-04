@@ -1,1 +1,1 @@
-# NareshIT_Project
+# NIT_Project
