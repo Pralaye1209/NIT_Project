@@ -1,0 +1,354 @@
+
+body{
+  margin-left:20px;
+  margin-right:20px;
+  box-shadow: 1px 5px 8px 10px rgb(22, 18, 18);
+  height: fit-content;
+}
+.input-group-addon.success {
+    color: #ffffff;
+    background-color: #999966;
+    border-color: #999966;
+}
+
+.input-group-addon.danger{
+    color: #fff;
+    background-color: #800000;
+    border-color: #800000;
+}
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2); 
+  transform: scale(1.2); 
+}
+table th{
+    background-color:rgb(158, 230, 230)
+}
+.navbar-inverse ul .active,
+.navbar-inverse li .active {
+  border-left: 3px solid #d19b3d;
+  border-right: 3px solid #d19b3d;
+  background-color: #4f5b69;
+}
+
+
+div.transbox {
+   
+    background-color: #fff;
+    border: 1px solid black;
+    filter: alpha(opacity=80);
+    margin-top: 100px;
+   
+}
+.formcomponent{ 
+  margin-top: 10px;
+  
+}
+.btngrp{
+  margin: 20px;
+}
+
+
+#wrapper{
+  margin-top: 40px; margin-left: 10px;
+}
+
+.content{
+  margin-left: 200px; margin-top: -250px;
+}
+
+#container-fluid{
+  margin-top: 40px !important; margin-left: 10px !important; margin-right: 20px !important;
+}
+
+
+div.transbox {
+   
+    background-color: #fff;
+    border: 1px solid black;
+   /*  opacity: 0.8; */
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    margin-top: 100px;
+   
+}
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+
+.ind1{
+  background-image: url('Images/Bag1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+.ind3{
+  border:0.7px solid #17a425;
+  width:100%;
+  margin-left: 5px;
+ 
+}
+.ind5{
+  background-color: rgb(218, 213, 117);
+  border-color: #AFEEEE;
+}
+.ind6{
+
+}
+.ind61{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.ind7{
+  background-color: rgb(131, 228, 216);
+  border-color: #AFEEEE;
+}
+.ind8{
+  background-color:white; 
+  border-color: #AFEEEE; 
+  padding: 10px;
+  box-shadow: 1px 5px 8px 10px #333333;  
+  height: auto;    
+}
+.ind81{
+  font-size:15px; 
+  font-weight: normal; 
+  font-style: oblique; 
+  line-height: 1.6; 
+}
+
+
+
+@media (min-width: 768px){
+.circle-tile {
+    margin-bottom: 30px;
+}
+}
+.circle-tile {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.circle-tile-heading {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto -40px;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 100%;
+    color: #fff;
+    transition: all ease-in-out .3s;
+}
+.circle-tile-heading .fa {
+    line-height: 80px;
+}
+
+.circle-tile-content {
+    padding-top: 50px;
+}
+.circle-tile-description {
+    text-transform: uppercase;
+}
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+.circle-tile-number {
+    padding: 5px 0 15px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1;
+}
+.circle-tile-footer {
+    display: block;
+    padding: 5px;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.1);
+    transition: all ease-in-out .3s;
+}
+
+.circle-tile-footer:hover {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    background-color: rgba(0,0,0,0.2);
+}
+.time-widget {
+    margin-top: 5px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.75em;
+}
+.time-widget-heading {
+    text-transform: uppercase;
+    font-size: .5em;
+    font-weight: 400;
+    color: #fff;
+}
+#datetime{color:#fff;}
+.tile-img {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+}
+.tile {
+    margin-bottom: 15px;
+    padding: 15px;
+    overflow: hidden;
+    color: #fff;
+}
+ .dark-blue {
+    background-color: #34495e;
+}
+.green {
+    background-color: #16a085;
+}
+.blue {
+    background-color: #2980b9;
+}
+.orange {
+    background-color: #f39c12;
+}
+.red {
+    background-color: #e74c3c;
+}
+.purple {
+    background-color: #8e44ad;
+}
+.dark-gray {
+    background-color: #7f8c8d;
+}
+.gray {
+    background-color: #95a5a6;
+}
+.light-gray {
+    background-color: #bdc3c7;
+}
+.yellow {
+    background-color: #f1c40f;
+}
+
+ .text-dark-blue {
+    color: #05dae5;
+}
+.text-green {
+    color: #16a089;
+}
+.text-blue {
+    color: #29b946;
+}
+.text-orange {
+    color: #f39c12;
+}
+.text-red {
+    color: #e74c3c;
+}
+.text-purple {
+    color: #a64bcd;
+}
+.text-faded {
+    color: rgba(255,255,255,0.7);
+}
+
+
+
+  .fa-facebook:hover{
+    color: skyblue;
+  }
+  .fa-envelope:hover {
+    color: #DB4437;
+  }
+  .fa-twitter:hover {
+    color: #6b00ee;
+  }
+  .fa-youtube:hover {
+    color: #c4302b;
+  }
+  .fa-linkedin:hover {
+    color: #0077b5;
+  }
+  .fa-skype:hover {
+    color: #00aff0;
+  }
+
+  div ul li a {
+    color: #ffffff;
+  }
+  a:hover {
+    opacity: 0.8;
+    
+  }
+  
+#footer{
+  line-height: 2.5;
+  color: #ffffff;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background-color: rgb(10, 41, 108);
+  background-image: url(Images/bg10.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Contact page start*/
+
+.contactone {
+  padding-left:2em;
+  padding-right:2em;
+  font-size:15px; 
+  font-weight: normal; 
+  font-style: oblique
+  line-height: 1.6;
+}
+
+
+/*Contact page end*/
+
+
+
+/*Service page start*/
+
+#boxtitle{
+  color: #0000ff;
+}
+#serviceone{
+  background-color:white; 
+  border-color: #AFEEEE; 
+  padding: 10px; 
+  box-shadow: 5px 10px 8px 8px #000000; 
+  height: auto;
+}
+.servicetwo{
+  font-size:15px; 
+  font-weight: normal; 
+  font-style: oblique; 
+  line-height: 1.6;
+}
+/*Service page end*/
+
+
+/*Normal styles*/
+
+#reglogin{
+  border-radius: 10px; 
+  background-color: rgba(255, 255, 255, 0.66); 
+  text-shadow: 2px 2px 4px #fff; 
+  box-shadow: 2px 2px 9px 4px #000
+}
+/*Normal Styles*/
